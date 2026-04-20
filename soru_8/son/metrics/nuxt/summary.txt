@@ -1,0 +1,51 @@
+VUE/NODE PROJESİ: nuxt
+======================================
+Analiz başlatılıyor: semgrep-vue projesi real_projects/nuxt
+Komut: semgrep --config auto /home/kali/calisma/real_projects/nuxt
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-vue):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 50%
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 100%
+Analiz başlatılıyor: eslint projesi real_projects/nuxt
+Komut: eslint --no-eslintrc --env browser --parser-options=ecmaVersion:2020 /home/kali/calisma/real_projects/nuxt
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (eslint):
+01.00
+01.01
+01.92
+01.72
+01.39
+Bellek (KB): 71624
+Bellek (KB): 69980
+Bellek (KB): 72092
+Bellek (KB): 70540
+Bellek (KB): 71600
+CPU (%): 119%
+CPU (%): 109%
+CPU (%): 119%
+CPU (%): 113%
+CPU (%): 110%
+ALL MASSIVE BENCHMARKS DONE

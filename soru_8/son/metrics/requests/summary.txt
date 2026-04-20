@@ -1,0 +1,75 @@
+PYTHON PROJESİ: requests
+======================================
+Analiz başlatılıyor: pylint projesi real_projects/requests
+Komut: pylint /home/kali/calisma/real_projects/requests
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (pylint):
+01.43
+01.27
+01.58
+01.00
+01.14
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+CPU (%): 100%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: bandit projesi real_projects/requests
+Komut: bandit -r /home/kali/calisma/real_projects/requests
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (bandit):
+02.67
+02.54
+03.29
+04.32
+02.25
+Bellek (KB): 44892
+Bellek (KB): 44900
+Bellek (KB): 44892
+Bellek (KB): 44892
+Bellek (KB): 44888
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: semgrep-py projesi real_projects/requests
+Komut: semgrep --config auto /home/kali/calisma/real_projects/requests
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-py):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+======================================

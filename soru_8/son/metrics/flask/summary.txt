@@ -1,0 +1,75 @@
+PYTHON PROJESİ: flask
+======================================
+Analiz başlatılıyor: pylint projesi real_projects/flask
+Komut: pylint /home/kali/calisma/real_projects/flask
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (pylint):
+33.09
+33.88
+37.81
+39.18
+36.43
+Bellek (KB): 236656
+Bellek (KB): 236660
+Bellek (KB): 236648
+Bellek (KB): 236320
+Bellek (KB): 236588
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: bandit projesi real_projects/flask
+Komut: bandit -r /home/kali/calisma/real_projects/flask
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (bandit):
+05.14
+05.39
+03.35
+05.73
+04.26
+Bellek (KB): 49384
+Bellek (KB): 49384
+Bellek (KB): 49348
+Bellek (KB): 49224
+Bellek (KB): 49160
+CPU (%): 99%
+CPU (%): 100%
+CPU (%): 99%
+CPU (%): 100%
+CPU (%): 100%
+Analiz başlatılıyor: semgrep-py projesi real_projects/flask
+Komut: semgrep --config auto /home/kali/calisma/real_projects/flask
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-py):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 50%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 50%
+CPU (%): 50%
+======================================

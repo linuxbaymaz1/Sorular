@@ -1,0 +1,538 @@
+# SSH ANALYSIS REPORT
+Date: 2026-04-19 09:55:58
+
+## Executed Commands
+- uname -a
+- whoami
+- uptime
+- ps aux
+- df -h
+
+## Keywords
+a
+
+## Matches Found
+### Match 1
+- Command: uname -a
+- Keyword: a
+- Line: Linux Nested 6.8.0-110-generic #110-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 15:09:20 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+
+### Match 2
+- Command: uptime
+- Keyword: a
+- Line: 09:55:58 up  1:46,  3 users,  load average: 0.30, 0.16, 0.05
+
+### Match 3
+- Command: ps aux
+- Keyword: a
+- Line: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+
+### Match 4
+- Command: ps aux
+- Keyword: a
+- Line: root           2  0.0  0.0      0     0 ?        S    08:09   0:00 [kthreadd]
+
+### Match 5
+- Command: ps aux
+- Keyword: a
+- Line: root           3  0.0  0.0      0     0 ?        S    08:09   0:00 [pool_workqueue_release]
+
+### Match 6
+- Command: ps aux
+- Keyword: a
+- Line: root          11  0.0  0.0      0     0 ?        I    08:09   0:00 [kworker/u24:0-ipv6_addrconf]
+
+### Match 7
+- Command: ps aux
+- Keyword: a
+- Line: root          13  0.0  0.0      0     0 ?        I    08:09   0:00 [rcu_tasks_kthread]
+
+### Match 8
+- Command: ps aux
+- Keyword: a
+- Line: root          14  0.0  0.0      0     0 ?        I    08:09   0:00 [rcu_tasks_rude_kthread]
+
+### Match 9
+- Command: ps aux
+- Keyword: a
+- Line: root          15  0.0  0.0      0     0 ?        I    08:09   0:00 [rcu_tasks_trace_kthread]
+
+### Match 10
+- Command: ps aux
+- Keyword: a
+- Line: root          18  0.0  0.0      0     0 ?        S    08:09   0:00 [migration/0]
+
+### Match 11
+- Command: ps aux
+- Keyword: a
+- Line: root          23  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/1]
+
+### Match 12
+- Command: ps aux
+- Keyword: a
+- Line: root          29  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/2]
+
+### Match 13
+- Command: ps aux
+- Keyword: a
+- Line: root          35  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/3]
+
+### Match 14
+- Command: ps aux
+- Keyword: a
+- Line: root          41  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/4]
+
+### Match 15
+- Command: ps aux
+- Keyword: a
+- Line: root          47  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/5]
+
+### Match 16
+- Command: ps aux
+- Keyword: a
+- Line: root          53  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/6]
+
+### Match 17
+- Command: ps aux
+- Keyword: a
+- Line: root          59  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/7]
+
+### Match 18
+- Command: ps aux
+- Keyword: a
+- Line: root          65  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/8]
+
+### Match 19
+- Command: ps aux
+- Keyword: a
+- Line: root          71  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/9]
+
+### Match 20
+- Command: ps aux
+- Keyword: a
+- Line: root          77  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/10]
+
+### Match 21
+- Command: ps aux
+- Keyword: a
+- Line: root          83  0.0  0.0      0     0 ?        S    08:09   0:01 [migration/11]
+
+### Match 22
+- Command: ps aux
+- Keyword: a
+- Line: root          92  0.0  0.0      0     0 ?        I    08:09   0:00 [kworker/u30:0-events_freezable_power_]
+
+### Match 23
+- Command: ps aux
+- Keyword: a
+- Line: root         101  0.0  0.0      0     0 ?        S    08:09   0:00 [kauditd]
+
+### Match 24
+- Command: ps aux
+- Keyword: a
+- Line: root         102  0.0  0.0      0     0 ?        S    08:09   0:00 [khungtaskd]
+
+### Match 25
+- Command: ps aux
+- Keyword: a
+- Line: root         103  0.0  0.0      0     0 ?        S    08:09   0:00 [oom_reaper]
+
+### Match 26
+- Command: ps aux
+- Keyword: a
+- Line: root         107  0.0  0.0      0     0 ?        S    08:09   0:00 [kcompactd0]
+
+### Match 27
+- Command: ps aux
+- Keyword: a
+- Line: root         110  0.0  0.0      0     0 ?        SN   08:09   0:00 [khugepaged]
+
+### Match 28
+- Command: ps aux
+- Keyword: a
+- Line: root         114  0.0  0.0      0     0 ?        S    08:09   0:00 [irq/9-acpi]
+
+### Match 29
+- Command: ps aux
+- Keyword: a
+- Line: root         118  0.0  0.0      0     0 ?        I<   08:09   0:00 [kworker/R-ata_s]
+
+### Match 30
+- Command: ps aux
+- Keyword: a
+- Line: root         121  0.0  0.0      0     0 ?        I<   08:09   0:00 [kworker/R-edac-]
+
+### Match 31
+- Command: ps aux
+- Keyword: a
+- Line: root         123  0.0  0.0      0     0 ?        S    08:09   0:00 [watchdogd]
+
+### Match 32
+- Command: ps aux
+- Keyword: a
+- Line: root         125  0.0  0.0      0     0 ?        I<   08:09   0:00 [kworker/R-quota]
+
+### Match 33
+- Command: ps aux
+- Keyword: a
+- Line: root         127  0.0  0.0      0     0 ?        S    08:09   0:00 [kswapd0]
+
+### Match 34
+- Command: ps aux
+- Keyword: a
+- Line: root         128  0.0  0.0      0     0 ?        S    08:09   0:00 [ecryptfs-kthread]
+
+### Match 35
+- Command: ps aux
+- Keyword: a
+- Line: root         170  0.0  0.0      0     0 ?        I<   08:09   0:00 [kworker/R-acpi_]
+
+### Match 36
+- Command: ps aux
+- Keyword: a
+- Line: root         219  0.0  0.0      0     0 ?        I<   08:09   0:00 [kworker/R-charg]
+
+### Match 37
+- Command: ps aux
+- Keyword: a
+- Line: root         303  0.0  0.0      0     0 ?        I    08:09   0:00 [kworker/2:2-cgroup_release]
+
+### Match 38
+- Command: ps aux
+- Keyword: a
+- Line: root         463  0.0  0.0      0     0 ?        I<   08:09   0:00 [kworker/R-raid5]
+
+### Match 39
+- Command: ps aux
+- Keyword: a
+- Line: root         505  0.0  0.0      0     0 ?        S    08:09   0:00 [jbd2/sda2-8]
+
+### Match 40
+- Command: ps aux
+- Keyword: a
+- Line: root         581  0.0  0.0  67024 18272 ?        S<s  08:09   0:03 /usr/lib/systemd/systemd-journald
+
+### Match 41
+- Command: ps aux
+- Keyword: a
+- Line: root         617  0.0  0.0      0     0 ?        I<   08:09   0:00 [kworker/R-kmpat]
+
+### Match 42
+- Command: ps aux
+- Keyword: a
+- Line: root         618  0.0  0.0      0     0 ?        I<   08:09   0:00 [kworker/R-kmpat]
+
+### Match 43
+- Command: ps aux
+- Keyword: a
+- Line: root         619  0.0  0.0 354524 27456 ?        SLsl 08:09   0:01 /sbin/multipathd -d -s
+
+### Match 44
+- Command: ps aux
+- Keyword: a
+- Line: root        1194  0.0  0.0  53468 12252 ?        Ss   08:09   0:00 /usr/bin/VGAuthService
+
+### Match 45
+- Command: ps aux
+- Keyword: a
+- Line: message+    1295  0.0  0.0  11872  6968 ?        Ss   08:09   0:03 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+
+### Match 46
+- Command: ps aux
+- Keyword: a
+- Line: gnome-r+    1298  0.0  0.0 439084 16512 ?        Ssl  08:09   0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+
+### Match 47
+- Command: ps aux
+- Keyword: a
+- Line: root        1315  0.0  0.0 310856  7668 ?        Ssl  08:09   0:00 /usr/libexec/power-profiles-daemon
+
+### Match 48
+- Command: ps aux
+- Keyword: a
+- Line: root        1318  0.1  0.1 2515136 39576 ?       Ssl  08:09   0:07 /snap/snapd/current/usr/lib/snapd/snapd
+
+### Match 49
+- Command: ps aux
+- Keyword: a
+- Line: root        1319  0.0  0.0 311480  8888 ?        Ssl  08:09   0:01 /usr/libexec/accounts-daemon
+
+### Match 50
+- Command: ps aux
+- Keyword: a
+- Line: root        1323  0.0  0.0  17548  8024 ?        Ss   08:09   0:00 /usr/lib/systemd/systemd-machined
+
+### Match 51
+- Command: ps aux
+- Keyword: a
+- Line: root        1376  0.0  0.0 333696 18868 ?        Ssl  08:09   0:00 /usr/sbin/NetworkManager --no-daemon
+
+### Match 52
+- Command: ps aux
+- Keyword: a
+- Line: root        1383  0.0  0.0  17384  6328 ?        Ss   08:09   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+
+### Match 53
+- Command: ps aux
+- Keyword: a
+- Line: root        1404  0.0  0.0 318364 13044 ?        Ssl  08:09   0:00 /usr/sbin/ModemManager
+
+### Match 54
+- Command: ps aux
+- Keyword: a
+- Line: root        1579  0.5  0.2 1280232 66692 ?       Ssl  08:09   0:36 /usr/bin/netbird service run --log-level info --daemon-addr unix:///var/run/netbird.sock --log-file /var/log/netbird/client.log
+
+### Match 55
+- Command: ps aux
+- Keyword: a
+- Line: root        1584  0.1  0.1 1290464 41512 ?       Ssl  08:09   0:11 /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=41641
+
+### Match 56
+- Command: ps aux
+- Keyword: a
+- Line: root        1586  0.0  0.0 109676 23188 ?        Ssl  08:09   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+
+### Match 57
+- Command: ps aux
+- Keyword: a
+- Line: root        1588  0.4  0.1 2385356 55008 ?       Ssl  08:09   0:30 /usr/bin/containerd
+
+### Match 58
+- Command: ps aux
+- Keyword: a
+- Line: root        1690  0.0  0.0   6104  2036 tty1     Ss+  08:09   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+
+### Match 59
+- Command: ps aux
+- Keyword: a
+- Line: root        1719  0.0  0.2 333288 79376 tty7     Ssl+ 08:09   0:02 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+
+### Match 60
+- Command: ps aux
+- Keyword: a
+- Line: root        1794  0.0  0.0      0     0 ?        S    08:09   0:00 [iprt-VBoxTscThread]
+
+### Match 61
+- Command: ps aux
+- Keyword: a
+- Line: root        1882  0.0  0.0  10660  2824 ?        Ss   08:09   0:00 /usr/sbin/vmware-authdlauncher
+
+### Match 62
+- Command: ps aux
+- Keyword: a
+- Line: libvirt+    2068  0.0  0.0  11512  2952 ?        S    08:09   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+
+### Match 63
+- Command: ps aux
+- Keyword: a
+- Line: root        2070  0.0  0.0  11484  1296 ?        S    08:09   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+
+### Match 64
+- Command: ps aux
+- Keyword: a
+- Line: root        2124  0.1  0.2 3308808 86788 ?       Ssl  08:09   0:12 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+### Match 65
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2326  0.0  0.0  21624  3796 ?        S    08:09   0:00 (sd-pam)
+
+### Match 66
+- Command: ps aux
+- Keyword: a
+- Line: root        2345  0.0  0.0      0     0 ?        S    08:09   0:00 [napi/wt0-0]
+
+### Match 67
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2372  0.0  0.0  95136  6156 ?        Ssl  08:09   0:00 /usr/bin/pipewire -c filter-chain.conf
+
+### Match 68
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2376  0.0  0.0 313892  9868 ?        Ssl  08:09   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/117/keyring
+
+### Match 69
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2380  0.0  0.0   9760  5584 ?        Ss   08:09   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+
+### Match 70
+- Command: ps aux
+- Keyword: a
+- Line: rtkit       2386  0.0  0.0  22940  3664 ?        SNsl 08:09   0:00 /usr/libexec/rtkit-daemon
+
+### Match 71
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2408  0.0  0.0 382972  8172 ?        Ssl  08:09   0:00 /usr/libexec/at-spi-bus-launcher
+
+### Match 72
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2421  0.0  0.0   9348  5156 ?        S    08:09   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/117/at-spi/bus
+
+### Match 73
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2455  0.0  0.0 495920 30164 ?        Sl   08:09   0:00 nm-applet
+
+### Match 74
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2459  0.0  0.0 236068  7800 ?        Sl   08:09   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+
+### Match 75
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2462  0.0  0.0 328372 12524 ?        Ssl  08:09   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+
+### Match 76
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2463  0.0  0.1 535492 36280 ?        Sl   08:09   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+
+### Match 77
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2466  0.0  0.0 603256  7352 ?        Ssl  08:09   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+
+### Match 78
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2468  0.0  0.0 441256 17304 ?        Ssl  08:09   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+
+### Match 79
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2469  0.0  0.0 447804 23364 ?        Ssl  08:09   0:00 /usr/libexec/indicator-keyboard/indicator-keyboard-service --use-gtk
+
+### Match 80
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2470  0.0  0.0 801196  8408 ?        Ssl  08:09   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+
+### Match 81
+- Command: ps aux
+- Keyword: a
+- Line: lightdm     2474  0.0  0.0 524208 11856 ?        Ssl  08:09   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+
+### Match 82
+- Command: ps aux
+- Keyword: a
+- Line: root        2908  0.0  0.0 1233352 10832 ?       Sl   08:09   0:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 3297e4c02a4bd46002f3e3e6e774bc00c1ac9ecf0e8462b5446669f1ab9c5787 -address /run/containerd/containerd.sock
+
+### Match 83
+- Command: ps aux
+- Keyword: a
+- Line: root        2951  0.0  0.0   4788  3356 ?        Ss   08:09   0:00 /bin/bash -c find /root/.openclaw -name '*.lock' -delete && openclaw gateway --force & tail -f /dev/null
+
+### Match 84
+- Command: ps aux
+- Keyword: a
+- Line: root        3006  0.0  0.0 1745100 4356 ?        Sl   08:09   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 15515 -container-ip 172.17.0.2 -container-port 15515 -use-listen-fd
+
+### Match 85
+- Command: ps aux
+- Keyword: a
+- Line: root        3013  0.0  0.0 1745100 4332 ?        Sl   08:09   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 15515 -container-ip 172.17.0.2 -container-port 15515 -use-listen-fd
+
+### Match 86
+- Command: ps aux
+- Keyword: a
+- Line: root        3038  0.0  0.0   4788  1784 ?        S    08:09   0:00 /bin/bash -c find /root/.openclaw -name '*.lock' -delete && openclaw gateway --force & tail -f /dev/null
+
+### Match 87
+- Command: ps aux
+- Keyword: a
+- Line: root        3040  0.0  0.0   3260  1868 ?        S    08:09   0:00 tail -f /dev/null
+
+### Match 88
+- Command: ps aux
+- Keyword: a
+- Line: root        3107  0.0  0.1 1013072 55032 ?       Sl   08:09   0:00 openclaw
+
+### Match 89
+- Command: ps aux
+- Keyword: a
+- Line: root        3354  1.0  1.3 22620588 449380 ?     Sl   08:09   1:07 openclaw-gateway
+
+### Match 90
+- Command: ps aux
+- Keyword: a
+- Line: root        5962  0.0  0.0      0     0 ?        I    08:41   0:00 [kworker/u27:0-events_freezable_power_]
+
+### Match 91
+- Command: ps aux
+- Keyword: a
+- Line: root        7141  0.0  0.0      0     0 ?        I    08:56   0:00 [kworker/u31:0-writeback]
+
+### Match 92
+- Command: ps aux
+- Keyword: a
+- Line: root        7654  0.0  0.0      0     0 ?        I    09:03   0:00 [kworker/u25:3-writeback]
+
+### Match 93
+- Command: ps aux
+- Keyword: a
+- Line: root        8399  0.0  0.0      0     0 ?        I    09:13   0:00 [kworker/u32:2-writeback]
+
+### Match 94
+- Command: ps aux
+- Keyword: a
+- Line: root       10199  0.0  0.0      0     0 ?        I    09:38   0:00 [kworker/u33:0-writeback]
+
+### Match 95
+- Command: ps aux
+- Keyword: a
+- Line: root       10327  0.0  0.0      0     0 ?        I    09:40   0:00 [kworker/7:1-cgroup_release]
+
+### Match 96
+- Command: ps aux
+- Keyword: a
+- Line: root       10648  0.0  0.0  12024  8184 ?        Ss   09:45   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+
+### Match 97
+- Command: ps aux
+- Keyword: a
+- Line: root       10659  0.0  0.0  21604  3732 ?        S    09:45   0:00 (sd-pam)
+
+### Match 98
+- Command: ps aux
+- Keyword: a
+- Line: root       10749  0.0  0.0   8852  5744 pts/0    Ss   09:45   0:00 -bash
+
+### Match 99
+- Command: ps aux
+- Keyword: a
+- Line: root       10835  0.0  0.0   9744  5044 pts/0    S    09:45   0:00 su - kali
+
+### Match 100
+- Command: ps aux
+- Keyword: a
+- Line: kali       10836  0.0  0.0   9688  6608 pts/0    S    09:45   0:00 -bash
+
+### Match 101
+- Command: ps aux
+- Keyword: a
+- Line: kali       11974  7.8  0.1 202252 41244 pts/0    Sl+  09:55   0:00 python3 g.py
+
+### Match 102
+- Command: ps aux
+- Keyword: a
+- Line: root       12038  650  0.0  11016  4724 ?        Rs   09:55   0:00 ps aux
+
+### Match 103
+- Command: df -h
+- Keyword: a
+- Line: Filesystem      Size  Used Avail Use% Mounted on
+
+### Match 104
+- Command: df -h
+- Keyword: a
+- Line: /dev/sda2       296G  215G   69G  76% /
+
+### Match 105
+- Command: df -h
+- Keyword: a
+- Line: overlay         296G  215G   69G  76% /var/lib/docker/overlay2/da994c1957b5eb40fe2b7b47956373a531c0504e3afec4ce329bb3fe70f7f8af/merged

@@ -1,0 +1,51 @@
+VUE/NODE PROJESİ: vue
+======================================
+Analiz başlatılıyor: semgrep-vue projesi real_projects/vue
+Komut: semgrep --config auto /home/kali/calisma/real_projects/vue
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-vue):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 50%
+Analiz başlatılıyor: eslint projesi real_projects/vue
+Komut: eslint --no-eslintrc --env browser --parser-options=ecmaVersion:2020 /home/kali/calisma/real_projects/vue
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (eslint):
+00.92
+02.10
+00.88
+00.96
+00.82
+Bellek (KB): 69560
+Bellek (KB): 69728
+Bellek (KB): 71348
+Bellek (KB): 70700
+Bellek (KB): 70796
+CPU (%): 120%
+CPU (%): 112%
+CPU (%): 114%
+CPU (%): 115%
+CPU (%): 116%
+======================================

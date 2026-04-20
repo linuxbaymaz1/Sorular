@@ -1,0 +1,75 @@
+PYTHON PROJESİ: django
+======================================
+Analiz başlatılıyor: pylint projesi real_projects/django
+Komut: pylint /home/kali/calisma/real_projects/django
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (pylint):
+02.09
+01.59
+01.24
+01.54
+01.27
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: bandit projesi real_projects/django
+Komut: bandit -r /home/kali/calisma/real_projects/django
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (bandit):
+1:50.42
+1:55.64
+1:52.86
+2:00.12
+1:53.56
+Bellek (KB): 157180
+Bellek (KB): 155568
+Bellek (KB): 156368
+Bellek (KB): 156696
+Bellek (KB): 156476
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+Analiz başlatılıyor: semgrep-py projesi real_projects/django
+Komut: semgrep --config auto /home/kali/calisma/real_projects/django
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-py):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 78%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 0%
+======================================

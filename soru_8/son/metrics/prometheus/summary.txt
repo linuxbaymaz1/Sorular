@@ -1,0 +1,75 @@
+GO PROJESİ: prometheus
+======================================
+Analiz başlatılıyor: golangci-lint projesi real_projects/prometheus
+Komut: golangci-lint run /home/kali/calisma/real_projects/prometheus/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (golangci-lint):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 50%
+CPU (%): 66%
+CPU (%): 78%
+CPU (%): 0%
+Analiz başlatılıyor: gosec projesi real_projects/prometheus
+Komut: gosec /home/kali/calisma/real_projects/prometheus/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (gosec):
+00.00
+00.00
+00.02
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 74%
+CPU (%): 77%
+CPU (%): 54%
+CPU (%): 100%
+CPU (%): 50%
+Analiz başlatılıyor: govulncheck projesi real_projects/prometheus
+Komut: govulncheck -C /home/kali/calisma/real_projects/prometheus .
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (govulncheck):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 81%
+======================================

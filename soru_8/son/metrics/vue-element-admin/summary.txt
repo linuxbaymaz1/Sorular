@@ -1,0 +1,51 @@
+VUE/NODE PROJESİ: vue-element-admin
+======================================
+Analiz başlatılıyor: semgrep-vue projesi real_projects/vue-element-admin
+Komut: semgrep --config auto /home/kali/calisma/real_projects/vue-element-admin
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-vue):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 50%
+Analiz başlatılıyor: eslint projesi real_projects/vue-element-admin
+Komut: eslint --no-eslintrc --env browser --parser-options=ecmaVersion:2020 /home/kali/calisma/real_projects/vue-element-admin
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (eslint):
+00.98
+00.83
+01.33
+01.05
+00.88
+Bellek (KB): 70832
+Bellek (KB): 71220
+Bellek (KB): 71540
+Bellek (KB): 71188
+Bellek (KB): 71144
+CPU (%): 112%
+CPU (%): 118%
+CPU (%): 115%
+CPU (%): 113%
+CPU (%): 118%
+======================================

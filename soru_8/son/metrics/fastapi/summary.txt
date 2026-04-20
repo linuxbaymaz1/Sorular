@@ -1,0 +1,75 @@
+PYTHON PROJESİ: fastapi
+======================================
+Analiz başlatılıyor: pylint projesi real_projects/fastapi
+Komut: pylint /home/kali/calisma/real_projects/fastapi
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (pylint):
+01.98
+01.83
+01.19
+01.19
+01.44
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: bandit projesi real_projects/fastapi
+Komut: bandit -r /home/kali/calisma/real_projects/fastapi
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (bandit):
+21.47
+18.23
+21.71
+21.99
+19.38
+Bellek (KB): 119924
+Bellek (KB): 119708
+Bellek (KB): 118296
+Bellek (KB): 118840
+Bellek (KB): 120272
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+Analiz başlatılıyor: semgrep-py projesi real_projects/fastapi
+Komut: semgrep --config auto /home/kali/calisma/real_projects/fastapi
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-py):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 50%
+CPU (%): 100%
+CPU (%): 50%
+======================================

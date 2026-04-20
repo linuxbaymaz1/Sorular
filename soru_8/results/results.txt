@@ -1,0 +1,243 @@
+--- GO BENCHMARKS ---
+Analiz başlatılıyor: golangci-lint projesi projects/go-app
+Komut: golangci-lint run /home/kali/calisma/projects/go-app/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (golangci-lint):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 66%
+CPU (%): 66%
+CPU (%): 100%
+CPU (%): 75%
+CPU (%): 100%
+Analiz başlatılıyor: gosec projesi projects/go-app
+Komut: gosec /home/kali/calisma/projects/go-app/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (gosec):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 66%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 33%
+CPU (%): 66%
+Analiz başlatılıyor: govulncheck projesi projects/go-app
+Komut: govulncheck -C /home/kali/calisma/projects/go-app .
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (govulncheck):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 100%
+CPU (%): 75%
+CPU (%): 66%
+CPU (%): 33%
+CPU (%): 75%
+Analiz başlatılıyor: go-licenses projesi projects/go-app
+Komut: go-licenses check github.com/gin-gonic/gin
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (go-licenses):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 66%
+CPU (%): 66%
+CPU (%): 66%
+CPU (%): 66%
+CPU (%): 100%
+--- PYTHON BENCHMARKS ---
+Analiz başlatılıyor: pylint projesi projects/python-app
+Komut: pylint /home/kali/calisma/projects/python-app/app.py
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (pylint):
+04.33
+04.04
+04.33
+04.34
+04.57
+Bellek (KB): 50440
+Bellek (KB): 50356
+Bellek (KB): 50312
+Bellek (KB): 50440
+Bellek (KB): 50432
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: bandit projesi projects/python-app
+Komut: bandit -r /home/kali/calisma/projects/python-app/
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (bandit):
+01.20
+01.21
+01.19
+01.35
+01.09
+Bellek (KB): 27852
+Bellek (KB): 27648
+Bellek (KB): 27884
+Bellek (KB): 27776
+Bellek (KB): 27756
+CPU (%): 98%
+CPU (%): 98%
+CPU (%): 99%
+CPU (%): 98%
+CPU (%): 99%
+Analiz başlatılıyor: safety projesi projects/python-app
+Komut: safety check -r /home/kali/calisma/projects/python-app/requirements.txt
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (safety):
+13.98
+12.56
+12.46
+10.89
+10.45
+Bellek (KB): 183028
+Bellek (KB): 183108
+Bellek (KB): 183036
+Bellek (KB): 183516
+Bellek (KB): 183144
+CPU (%): 50%
+CPU (%): 62%
+CPU (%): 71%
+CPU (%): 66%
+CPU (%): 57%
+Analiz başlatılıyor: semgrep-py projesi projects/python-app
+Komut: semgrep --config auto /home/kali/calisma/projects/python-app
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-py):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 50%
+CPU (%): 66%
+--- VUE BENCHMARKS ---
+Analiz başlatılıyor: semgrep-vue projesi projects/vue-app
+Komut: semgrep --config auto /home/kali/calisma/projects/vue-app
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-vue):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 100%
+CPU (%): 50%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+Analiz başlatılıyor: eslint projesi projects/vue-app
+Komut: eslint --no-eslintrc --env browser --parser-options=ecmaVersion:2020 /home/kali/calisma/projects/vue-app/App.vue
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (eslint):
+01.79
+02.11
+02.00
+02.30
+01.56
+Bellek (KB): 72620
+Bellek (KB): 69476
+Bellek (KB): 71240
+Bellek (KB): 71100
+Bellek (KB): 72724
+CPU (%): 116%
+CPU (%): 113%
+CPU (%): 116%
+CPU (%): 113%
+CPU (%): 115%

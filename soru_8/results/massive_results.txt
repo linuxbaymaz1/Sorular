@@ -1,0 +1,755 @@
+--- 11 PROJELİK DEVASA BENCHMARK BAŞLADI ---
+======================================
+GO PROJESİ: gin
+======================================
+Analiz başlatılıyor: golangci-lint projesi real_projects/gin
+Komut: golangci-lint run /home/kali/calisma/real_projects/gin/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (golangci-lint):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 83%
+CPU (%): 66%
+CPU (%): 66%
+CPU (%): 0%
+CPU (%): 66%
+Analiz başlatılıyor: gosec projesi real_projects/gin
+Komut: gosec /home/kali/calisma/real_projects/gin/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (gosec):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 50%
+CPU (%): 66%
+CPU (%): 50%
+CPU (%): 50%
+CPU (%): 66%
+Analiz başlatılıyor: govulncheck projesi real_projects/gin
+Komut: govulncheck -C /home/kali/calisma/real_projects/gin .
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (govulncheck):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 66%
+CPU (%): 66%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 0%
+======================================
+GO PROJESİ: prometheus
+======================================
+Analiz başlatılıyor: golangci-lint projesi real_projects/prometheus
+Komut: golangci-lint run /home/kali/calisma/real_projects/prometheus/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (golangci-lint):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 50%
+CPU (%): 66%
+CPU (%): 78%
+CPU (%): 0%
+Analiz başlatılıyor: gosec projesi real_projects/prometheus
+Komut: gosec /home/kali/calisma/real_projects/prometheus/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (gosec):
+00.00
+00.00
+00.02
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 74%
+CPU (%): 77%
+CPU (%): 54%
+CPU (%): 100%
+CPU (%): 50%
+Analiz başlatılıyor: govulncheck projesi real_projects/prometheus
+Komut: govulncheck -C /home/kali/calisma/real_projects/prometheus .
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (govulncheck):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 81%
+======================================
+GO PROJESİ: hugo
+======================================
+Analiz başlatılıyor: golangci-lint projesi real_projects/hugo
+Komut: golangci-lint run /home/kali/calisma/real_projects/hugo/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (golangci-lint):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 50%
+CPU (%): 100%
+CPU (%): 78%
+Analiz başlatılıyor: gosec projesi real_projects/hugo
+Komut: gosec /home/kali/calisma/real_projects/hugo/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (gosec):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 76%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 0%
+Analiz başlatılıyor: govulncheck projesi real_projects/hugo
+Komut: govulncheck -C /home/kali/calisma/real_projects/hugo .
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (govulncheck):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 100%
+======================================
+GO PROJESİ: syncthing
+======================================
+Analiz başlatılıyor: golangci-lint projesi real_projects/syncthing
+Komut: golangci-lint run /home/kali/calisma/real_projects/syncthing/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (golangci-lint):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 50%
+CPU (%): 100%
+CPU (%): 0%
+Analiz başlatılıyor: gosec projesi real_projects/syncthing
+Komut: gosec /home/kali/calisma/real_projects/syncthing/...
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (gosec):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 33%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 0%
+Analiz başlatılıyor: govulncheck projesi real_projects/syncthing
+Komut: govulncheck -C /home/kali/calisma/real_projects/syncthing .
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (govulncheck):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 0%
+======================================
+PYTHON PROJESİ: flask
+======================================
+Analiz başlatılıyor: pylint projesi real_projects/flask
+Komut: pylint /home/kali/calisma/real_projects/flask
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (pylint):
+33.09
+33.88
+37.81
+39.18
+36.43
+Bellek (KB): 236656
+Bellek (KB): 236660
+Bellek (KB): 236648
+Bellek (KB): 236320
+Bellek (KB): 236588
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: bandit projesi real_projects/flask
+Komut: bandit -r /home/kali/calisma/real_projects/flask
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (bandit):
+05.14
+05.39
+03.35
+05.73
+04.26
+Bellek (KB): 49384
+Bellek (KB): 49384
+Bellek (KB): 49348
+Bellek (KB): 49224
+Bellek (KB): 49160
+CPU (%): 99%
+CPU (%): 100%
+CPU (%): 99%
+CPU (%): 100%
+CPU (%): 100%
+Analiz başlatılıyor: semgrep-py projesi real_projects/flask
+Komut: semgrep --config auto /home/kali/calisma/real_projects/flask
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-py):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 50%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 50%
+CPU (%): 50%
+======================================
+PYTHON PROJESİ: django
+======================================
+Analiz başlatılıyor: pylint projesi real_projects/django
+Komut: pylint /home/kali/calisma/real_projects/django
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (pylint):
+02.09
+01.59
+01.24
+01.54
+01.27
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: bandit projesi real_projects/django
+Komut: bandit -r /home/kali/calisma/real_projects/django
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (bandit):
+1:50.42
+1:55.64
+1:52.86
+2:00.12
+1:53.56
+Bellek (KB): 157180
+Bellek (KB): 155568
+Bellek (KB): 156368
+Bellek (KB): 156696
+Bellek (KB): 156476
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+Analiz başlatılıyor: semgrep-py projesi real_projects/django
+Komut: semgrep --config auto /home/kali/calisma/real_projects/django
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-py):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 78%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 0%
+======================================
+PYTHON PROJESİ: requests
+======================================
+Analiz başlatılıyor: pylint projesi real_projects/requests
+Komut: pylint /home/kali/calisma/real_projects/requests
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (pylint):
+01.43
+01.27
+01.58
+01.00
+01.14
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+CPU (%): 100%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: bandit projesi real_projects/requests
+Komut: bandit -r /home/kali/calisma/real_projects/requests
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (bandit):
+02.67
+02.54
+03.29
+04.32
+02.25
+Bellek (KB): 44892
+Bellek (KB): 44900
+Bellek (KB): 44892
+Bellek (KB): 44892
+Bellek (KB): 44888
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: semgrep-py projesi real_projects/requests
+Komut: semgrep --config auto /home/kali/calisma/real_projects/requests
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-py):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+======================================
+PYTHON PROJESİ: fastapi
+======================================
+Analiz başlatılıyor: pylint projesi real_projects/fastapi
+Komut: pylint /home/kali/calisma/real_projects/fastapi
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (pylint):
+01.98
+01.83
+01.19
+01.19
+01.44
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+Bellek (KB): 42624
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+CPU (%): 99%
+Analiz başlatılıyor: bandit projesi real_projects/fastapi
+Komut: bandit -r /home/kali/calisma/real_projects/fastapi
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (bandit):
+21.47
+18.23
+21.71
+21.99
+19.38
+Bellek (KB): 119924
+Bellek (KB): 119708
+Bellek (KB): 118296
+Bellek (KB): 118840
+Bellek (KB): 120272
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 100%
+Analiz başlatılıyor: semgrep-py projesi real_projects/fastapi
+Komut: semgrep --config auto /home/kali/calisma/real_projects/fastapi
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-py):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 50%
+CPU (%): 100%
+CPU (%): 50%
+======================================
+VUE/NODE PROJESİ: vue-element-admin
+======================================
+Analiz başlatılıyor: semgrep-vue projesi real_projects/vue-element-admin
+Komut: semgrep --config auto /home/kali/calisma/real_projects/vue-element-admin
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-vue):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 50%
+Analiz başlatılıyor: eslint projesi real_projects/vue-element-admin
+Komut: eslint --no-eslintrc --env browser --parser-options=ecmaVersion:2020 /home/kali/calisma/real_projects/vue-element-admin
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (eslint):
+00.98
+00.83
+01.33
+01.05
+00.88
+Bellek (KB): 70832
+Bellek (KB): 71220
+Bellek (KB): 71540
+Bellek (KB): 71188
+Bellek (KB): 71144
+CPU (%): 112%
+CPU (%): 118%
+CPU (%): 115%
+CPU (%): 113%
+CPU (%): 118%
+======================================
+VUE/NODE PROJESİ: vue
+======================================
+Analiz başlatılıyor: semgrep-vue projesi real_projects/vue
+Komut: semgrep --config auto /home/kali/calisma/real_projects/vue
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-vue):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 100%
+CPU (%): 0%
+CPU (%): 100%
+CPU (%): 100%
+CPU (%): 50%
+Analiz başlatılıyor: eslint projesi real_projects/vue
+Komut: eslint --no-eslintrc --env browser --parser-options=ecmaVersion:2020 /home/kali/calisma/real_projects/vue
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (eslint):
+00.92
+02.10
+00.88
+00.96
+00.82
+Bellek (KB): 69560
+Bellek (KB): 69728
+Bellek (KB): 71348
+Bellek (KB): 70700
+Bellek (KB): 70796
+CPU (%): 120%
+CPU (%): 112%
+CPU (%): 114%
+CPU (%): 115%
+CPU (%): 116%
+======================================
+VUE/NODE PROJESİ: nuxt
+======================================
+Analiz başlatılıyor: semgrep-vue projesi real_projects/nuxt
+Komut: semgrep --config auto /home/kali/calisma/real_projects/nuxt
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (semgrep-vue):
+00.00
+00.00
+00.00
+00.00
+00.00
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+Bellek (KB): 1024
+CPU (%): 50%
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 0%
+CPU (%): 100%
+Analiz başlatılıyor: eslint projesi real_projects/nuxt
+Komut: eslint --no-eslintrc --env browser --parser-options=ecmaVersion:2020 /home/kali/calisma/real_projects/nuxt
+--------------------------------------------------------
+Tekrar 1...
+Tekrar 2...
+Tekrar 3...
+Tekrar 4...
+Tekrar 5...
+Analiz Sonuç Özeti (eslint):
+01.00
+01.01
+01.92
+01.72
+01.39
+Bellek (KB): 71624
+Bellek (KB): 69980
+Bellek (KB): 72092
+Bellek (KB): 70540
+Bellek (KB): 71600
+CPU (%): 119%
+CPU (%): 109%
+CPU (%): 119%
+CPU (%): 113%
+CPU (%): 110%
+ALL MASSIVE BENCHMARKS DONE

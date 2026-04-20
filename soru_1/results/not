@@ -1,0 +1,1 @@
+sistem .env den aldığı bilgilerle karşı makineye ssh yapmaktadır.ENV dosyasını güvenlik için koydum.Sistem çeşitli komutlarkla o an sunucuda ne olup bittiğine sistemde hangi kullanıcı olarak çalştığımıza sistemin ne kadar ayakta olduğuna sistemin disk boyutlarına bakmaktadır.bizim seçtiğimiz kelimeyi de aldığı bu çıktıdan bize göstermektedir
